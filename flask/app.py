@@ -1,8 +1,8 @@
 from flask import Flask, jsonify, request, send_from_directory
 from re import match
 from os import path
-# from TopUp import Uquid as TopUp
-# from UquidInfo import UquidOrders as UquidInfo
+from TopUp import Uquid as TopUp
+from UquidInfo import UquidOrders as UquidInfo
 from SessionChecker import SessionChecker
 from Telegram import Login as Telegram
 app = Flask(__name__)
